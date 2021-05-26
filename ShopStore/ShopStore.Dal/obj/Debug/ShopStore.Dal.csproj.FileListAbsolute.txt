@@ -1,0 +1,11 @@
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\ShopStore.Dal.dll.config
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\ShopStore.Dal.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\ShopStore.Dal.pdb
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\EntityFramework.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\EntityFramework.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.csproj.CoreCompileInputs.cache
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.csproj.CopyComplete
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.pdb
