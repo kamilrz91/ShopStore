@@ -76,3 +76,8 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.cs
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.csproj.CopyComplete
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.pdb
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.csprojAssemblyReference.cache
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.SqlServer.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.SqlServer.xml
