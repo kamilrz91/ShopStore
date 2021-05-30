@@ -3,10 +3,11 @@ using System.Data.Entity;
 
 namespace ShopStore.Dal.ShopStore
 {
-    public class ShopStoreContext: DbContext
+    public class ShopStoreContext : DbContext
     {
 
         public DbSet<Product> Products { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<Category> Category {get; set;}
     }
 }
