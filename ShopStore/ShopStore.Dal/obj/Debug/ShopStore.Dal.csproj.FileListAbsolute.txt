@@ -9,6 +9,5 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStor
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.csproj.CopyComplete
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.pdb
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.csprojAssemblyReference.cache
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.Migrations.init.resources
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore.Dal\obj\Debug\ShopStore.Dal.csproj.GenerateResource.cache

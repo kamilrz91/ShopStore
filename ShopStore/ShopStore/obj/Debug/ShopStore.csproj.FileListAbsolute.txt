@@ -81,3 +81,7 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.dl
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.SqlServer.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\EntityFramework.SqlServer.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\SimpleCrypto.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.pdb
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.dll.config

@@ -6,6 +6,7 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -20,9 +21,23 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    @if (Request.IsAuthenticated)
+                    {
+
+
+                        <span style="color: blue">
+
+                            @Html.ActionLink(@Html.Encode(User.Identity.Name), "index", "Admin")
+
+                            @Html.ActionLink("Log Out", "LogOut", "Admin", null, new { @class = "btn btn-info" })
+                        </span>
+ }
+                    else
+                    {
+
+                        @Html.ActionLink("Register", "Registration", "Admin", null, new { @class = "btn btn-info" })
+                        <span>/</span>
+                        @Html.ActionLink("Log in", "LoginIn", "Admin", null, new { @class = "btn btn-info" })}
                 </ul>
             </div>
         </div>
@@ -34,6 +49,7 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
+
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
