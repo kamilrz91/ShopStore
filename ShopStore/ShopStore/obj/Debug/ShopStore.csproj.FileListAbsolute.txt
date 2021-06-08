@@ -50,7 +50,6 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\roslyn\vbc.exe.con
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\roslyn\vbc.rsp
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\roslyn\VBCSCompiler.exe
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Antlr3.Runtime.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Newtonsoft.Json.dll
@@ -70,7 +69,6 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\System.Web.WebPage
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\System.Web.WebPages.Deployment.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\System.Web.WebPages.Razor.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Newtonsoft.Json.xml
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Antlr3.Runtime.pdb
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.csproj.CoreCompileInputs.cache
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\obj\Debug\ShopStore.csproj.CopyComplete
@@ -85,7 +83,11 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\SimpleCrypto.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.pdb
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.dll.config
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Core.dll
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Windsor.dll
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Core.xml
-C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Windsor.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Moq.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.Web.Common.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.Web.Mvc.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Moq.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.Web.Common.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.Web.Mvc.xml
