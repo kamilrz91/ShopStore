@@ -58,6 +58,7 @@
       <DependentUpon>202105261652292_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Repository\Cart.cs" />
     <Compile Include="Repository\Category.cs" />
     <Compile Include="Repository\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

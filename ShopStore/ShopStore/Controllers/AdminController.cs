@@ -82,6 +82,8 @@ namespace ShopStore.Controllers
             return RedirectToAction("List", "Product");
         }
 
+
+
         private bool isValid(string email, string password)
         {
             var crypto = new SimpleCrypto.PBKDF2();
@@ -103,6 +105,7 @@ namespace ShopStore.Controllers
 
             return isValid;
         }
+
 
 
         private IProductRepository repository;

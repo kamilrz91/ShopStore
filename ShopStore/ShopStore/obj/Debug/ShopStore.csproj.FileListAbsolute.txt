@@ -85,3 +85,7 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\SimpleCrypto.dll
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.pdb
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\ShopStore.Dal.dll.config
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Core.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Windsor.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Core.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Castle.Windsor.xml
