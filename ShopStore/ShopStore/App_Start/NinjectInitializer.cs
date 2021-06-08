@@ -1,5 +1,5 @@
-﻿//[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ShopStore.App_Start.NinjectInitializer), "Start")]
-//[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(ShopStore.App_Start.NinjectInitializer), "Stop")]
+﻿[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(ShopStore.App_Start.NinjectInitializer), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(ShopStore.App_Start.NinjectInitializer), "Stop")]
 
 
 namespace ShopStore.App_Start

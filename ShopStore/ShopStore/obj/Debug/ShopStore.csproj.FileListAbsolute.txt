@@ -91,3 +91,5 @@ C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Moq.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.Web.Common.xml
 C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\Ninject.Web.Mvc.xml
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\WebActivator.dll
+C:\Users\kamil\source\repos\ShopStore\ShopStore\ShopStore\bin\WebActivatorEx.dll
