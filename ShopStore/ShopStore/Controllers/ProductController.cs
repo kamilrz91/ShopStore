@@ -24,10 +24,11 @@ namespace ShopStore.Controllers
 
         public ViewResult List(string category, int page = 1)
         {
+            var categoryId = repository.GetCategoryId(category); 
             ProductsListViewModel model = new ProductsListViewModel
             {
                 Products = repository.Products
-               //.Where(p => category == null || p.Category == category)
+               .Where(p => category == null || p.Category == categoryId)
                .OrderBy(p => p.ProductID)
                .Skip((page - 1) * PageSize)
                .Take(PageSize),
@@ -36,15 +37,13 @@ namespace ShopStore.Controllers
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
                     TotalItems = category == null ?
-                        repository.Products.Count() : 1
-                    //repository.Products.Where(e => e.Category == category).Count()
+                        repository.Products.Count() : 
+                    repository.Products.Where(e => e.Category == categoryId).Count()
                 },
                 CurrentCategory = category
             };
             return View(model);
+                }
 
-
-
-        }
     }
 }

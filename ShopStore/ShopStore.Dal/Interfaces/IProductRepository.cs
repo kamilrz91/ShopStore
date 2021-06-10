@@ -15,5 +15,7 @@ namespace ShopStore.Dal.Interfaces
 
         Product DeleteProduct(int productID);
 
+        int? GetCategoryId(string name);
+
     }
 }

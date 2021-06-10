@@ -54,5 +54,12 @@ namespace ShopStore.Dal.ShopStore
             }
             return dbEntry;
         }
+
+        public int? GetCategoryId(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name)) return null;
+           var categoryId = context.Category.FirstOrDefault(x => x.Name == name).CategoryId;
+           return categoryId;
+        }
     }
 }

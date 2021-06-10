@@ -18,6 +18,17 @@ namespace ShopStore
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                 name: null,
+                 url: "{controller}/{action}",
+                 defaults: new
+                 {
+                     controller = "Admin",
+                     action = "ShowList"
+
+                 }
+             );
         }
     }
 }
