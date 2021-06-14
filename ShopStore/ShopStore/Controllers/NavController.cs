@@ -23,12 +23,13 @@ namespace ShopStore.Controllers
 
         public PartialViewResult Menu(string category = null)
         {
+            var categoryId = repository.GetCategoryId(category);
 
             ViewBag.SelectedCategory = category;
 
 
-            IEnumerable<string> categories = repository.Products
-                        .Select(x => x.CategoryId)
+            IEnumerable<string> categories = repository.Categories
+                        .Where(p => category == null || p.CategoryId == categoryId)
                         .Distinct()
                         .Select(x=>x.Name)
                         .OrderBy(x => x);

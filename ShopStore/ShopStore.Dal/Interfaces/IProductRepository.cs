@@ -10,6 +10,7 @@ namespace ShopStore.Dal.Interfaces
     public interface IProductRepository
     {
         IEnumerable<Product> Products { get; }
+        IEnumerable<Category> Categories { get; }
 
         void SaveProduct(Product product);
 

@@ -4,8 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopStore.Dal.ShopStore
 {
@@ -20,8 +18,10 @@ namespace ShopStore.Dal.ShopStore
         {
             get { return context.Products; }
         }
-
-
+        public IEnumerable<Category> Categories
+        {
+            get { return context.Category; }
+        }
         public void SaveProduct(Product product)
         {
 

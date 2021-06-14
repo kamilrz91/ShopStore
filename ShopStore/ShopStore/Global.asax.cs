@@ -1,5 +1,8 @@
-﻿using System;
+﻿using ShopStore.Dal.Repository;
+using ShopStore.NinjectBinding.Binders;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -16,6 +19,9 @@ namespace ShopStore
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ShopStore.RouteConfig.RegisterRoutes(RouteTable.Routes);
+            Database.SetInitializer<DbContext>(null);
+            ModelBinders.Binders.Add(typeof(Cart), new CartBinder());
         }
     }
 }

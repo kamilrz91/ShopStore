@@ -32,7 +32,13 @@ namespace ShopStore.NinjectBinding
 
         private void AddBindings()
         {
+            EmailSettings emailSettings = new EmailSettings
+            {
+                WriteAsFile = bool.Parse(ConfigurationManager
+             .AppSettings["Email.WriteAsFile"] ?? "false")
+            };
             kernel.Bind<IProductRepository>().To<ProductRepository>();
+            kernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>().WithConstructorArgument("settings", emailSettings);
         }
     }
 }
