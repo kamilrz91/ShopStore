@@ -13,13 +13,13 @@ namespace ShopStore.Dal.ShopStore
 
     public class EmailSettings
     {
-        public string MailToAddress = "orders@example.com";
-        public string MailFromAddress = "sportsstore@example.com";
+        public string MailToAddress = "kamil.rzeznik.1991@outlook.com";
+        public string MailFromAddress = "tests.test@interia.pl";
         public bool UseSsl = true;
-        public string Username = "MySmtpUsername";
-        public string Password = "MySmtpPassword";
-        public string ServerName = "smtp.example.com";
-        public int ServerPort = 587;
+        public string Username = "tests.test@interia.pl";
+        public string Password = "testtest123";
+        public string ServerName = "poczta.interia.pl";
+        public int ServerPort = 465;
         public bool WriteAsFile = true;
         public string FileLocation = @"c:\sports_store_emails";
     }
