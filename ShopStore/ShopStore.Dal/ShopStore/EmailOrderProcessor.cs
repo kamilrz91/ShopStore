@@ -19,7 +19,7 @@ namespace ShopStore.Dal.ShopStore
         public string Username = "tests.test@interia.pl";
         public string Password = "testtest123";
         public string ServerName = "poczta.interia.pl";
-        public int ServerPort = 465;
+        public int ServerPort = 587;
         public bool WriteAsFile = true;
         public string FileLocation = @"c:\sports_store_emails";
     }
